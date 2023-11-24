@@ -40,6 +40,24 @@
   --card-border-rgb: 131, 134, 135;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.page-container {
+  flex: 1;
+  justify-content: start;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
